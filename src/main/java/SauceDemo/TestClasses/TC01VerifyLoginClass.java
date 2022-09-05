@@ -15,5 +15,6 @@ public class TC01VerifyLoginClass extends TestBaseClass
 		String actualTitle = driver.getTitle();
 		
 		Assert.assertEquals(ExpectedTitle, actualTitle);
+		
 	}
 }
